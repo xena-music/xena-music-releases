@@ -1,0 +1,17 @@
+name: 기능 제안
+description: 있으면 좋겠는 기능이나 바뀌었으면 하는 점을 알려 주세요.
+title: "[제안] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 어떤 기능이면 좋을까요?
+      description: 어떤 상황에서 쓰고 싶은지 함께 적어 주시면 도움이 돼요.
+    validations:
+      required: true
+  - type: textarea
+    id: now
+    attributes:
+      label: 지금은 어떻게 하고 있나요?
+      description: 지금 쓰는 방법이나 불편한 점이 있다면 적어 주세요.

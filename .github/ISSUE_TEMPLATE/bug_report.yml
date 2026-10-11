@@ -1,0 +1,48 @@
+name: 문제 알리기
+description: 앱이 예상과 다르게 동작할 때 알려 주세요.
+title: "[문제] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        알려 주셔서 고맙습니다. 아래 내용을 채워 주시면 빨리 확인할 수 있어요.
+        이 글은 누구나 볼 수 있으니 비밀번호나 개인 파일은 올리지 마세요.
+  - type: input
+    id: version
+    attributes:
+      label: 앱 버전
+      description: 설정 → 일반 → 업데이트에서 현재 버전을 볼 수 있어요.
+      placeholder: 예) 1.2.0
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows 버전
+      placeholder: 예) Windows 11 24H2
+  - type: textarea
+    id: problem
+    attributes:
+      label: 어떤 문제가 있나요?
+      description: 무엇을 기대했고, 실제로는 어떻게 됐는지 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 문제가 생긴 순서
+      placeholder: |
+        1.
+        2.
+        3.
+  - type: textarea
+    id: message
+    attributes:
+      label: 화면에 나온 메시지
+      description: 메시지가 있었다면 그대로 옮겨 주세요. 화면을 캡처해 붙여도 좋아요.
+  - type: input
+    id: file
+    attributes:
+      label: 특정 음악 파일에서만 생기나요?
+      description: 그렇다면 파일 형식(MP3, FLAC 등)과 증상을 알려 주세요.
