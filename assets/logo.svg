@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>Xena Music</title>
+  <desc>A flowing X and a musical eighth note, in white on a coral rounded square.</desc>
+  <defs>
+    <linearGradient id="coral" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7775"/>
+      <stop offset="1" stop-color="#ff5262"/>
+    </linearGradient>
+  </defs>
+  <!-- One master mark is shared by the sidebar, title bar and native icons. -->
+  <rect x="8" y="8" width="496" height="496" rx="108" fill="url(#coral)"/>
+  <g transform="translate(62 77) scale(1.35)" fill="#fff">
+    <!-- The upper-left arm flows into the crossing of the X. -->
+    <path d="M0 14C44 1 90 8 116 39C127 52 132 68 140 83L121 159C109 148 98 141 85 131C54 106 54 60 17 28C11 22 6 17 0 14Z"/>
+    <!-- A single, continuous notehead, rising stem and leaf-like flag. -->
+    <path d="M284 0C275 50 247 73 204 79C176 82 160 81 149 96L124 190C121 211 111 229 94 239C70 256 45 266 21 261C-3 257-5 241 2 224C11 201 37 181 62 175C86 169 107 171 114 188C120 205 111 225 101 232C116 221 122 205 125 187L145 88C149 63 160 45 182 34C211 18 253 22 284 0Z"/>
+    <!-- The lower-right arm completes the X without adding a second note. -->
+    <path d="M149 96C173 121 199 132 215 156C231 180 243 227 288 255C242 267 194 260 169 232C154 216 151 198 136 176Z"/>
+  </g>
+</svg>
